@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 First, clone the source code from GitHup
-
+https://github.com/Majdiathamnih/Selenium-Test-App.git
 
 Second, install & run the development server:
 
