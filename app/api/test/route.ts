@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 import { Builder, Browser, By, Key, until } from "selenium-webdriver";
 export const GET = async (req: Request, res: Response) => {
-    let driver = await new Builder().forBrowser('chrome').build();
+    let driver = await new Builder().forBrowser(Browser.CHROME).build();
     try {
         await driver.get("https://www.google.com");
         await driver.findElement(By.name("q")).sendKeys("testing", Key.RETURN);
