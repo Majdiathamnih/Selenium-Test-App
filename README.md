@@ -7,7 +7,7 @@ https://github.com/Majdiathamnih/Selenium-Test-App.git
 Second, install & run the development server:
 
 ```bash
-#Install dependences 
+#Install Dependencies 
 npm i
 # Run the development
 npm run dev
